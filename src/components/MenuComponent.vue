@@ -5,6 +5,15 @@
                 <router-link to="/">Home</router-link>
             </li>
             <li>
+                <router-link to="/ciclovida">Ciclo Vida</router-link>
+            </li>
+            <li>
+                <router-link to="/parimpar">Par e Impar</router-link>
+            </li>
+            <li>
+                <router-link to="/directivos">Directivas</router-link>
+            </li>
+            <li>
                 <router-link to="/cine">Cine</router-link>
             </li>
             <li>

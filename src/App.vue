@@ -2,6 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div>
+    <h3>Hola a quien este viendo</h3>
     <h1 style="color:red">Elemento estatico</h1>
     <MenuComponente/>
     <hr/>

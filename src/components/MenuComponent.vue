@@ -37,8 +37,8 @@ export default {
         padding: 10px;
         border-radius: 5px;
         box-shadow: 2px 2px 5px gray;
-        transition: background-color 0.6s, color 0.6s;
-        transition: font-size 0.4s;
+        transition: font-size 0.6s , background-color 0.6s;
+        
     }
     
     ul#menu li a {

@@ -3,7 +3,7 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div>
     <h3>Hola a quien este viendo</h3>
-    <h1 style="color:red">Elemento estatico</h1>
+    <h1 style="color:red" id="estatico">Elemento estatico</h1>
     <MenuComponente/>
     <hr/>
     <router-view></router-view>
@@ -44,5 +44,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#estatico {
+  transition: font-size 0.4s;
+}
+#estatico:hover {
+  font-size: 40px;
 }
 </style>
